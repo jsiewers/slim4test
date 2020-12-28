@@ -3,7 +3,7 @@
 use Slim\App;
 use Selective\BasePath\BasePathMiddleware;
 use Slim\Middleware\ErrorMiddleware;
-use App\Middleware\RespectValidationMiddleware;
+use App\Middleware\ValidationErrorsMiddleware;
 
 
 return function (App $app) {
@@ -20,7 +20,7 @@ return function (App $app) {
     $app->add(ErrorMiddleware::class); 
     
     //Validation
-    $app->add(RespectValidationMiddleware::class);
+    $app->add(ValidationErrorsMiddleware::class);
 
 
 };

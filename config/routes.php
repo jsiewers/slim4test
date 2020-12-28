@@ -10,4 +10,8 @@ return function (App $app) {
     $app->post('/users', \App\Action\User\CreateAction::class);
     $app->get('/users', \App\Action\User\ShowAllAction::class);
     $app->get('/user/{id}', \App\Action\ShowAction::class);
+    $app->get('/hello', function (Request $request, Response $response) {
+        $response->getBody()->write('Hello World');
+        return $response;
+    });
 };

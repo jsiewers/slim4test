@@ -5,7 +5,7 @@ use Slim\Factory\AppFactory;
 use Slim\Middleware\ErrorMiddleware;
 use Selective\BasePath\BasePathMiddleware;
 use App\Validation\Validator;
-use App\Middleware\RespectValidationMiddleware;
+use App\Middleware\ValidationErrorsMiddleware;
 use Psr\Http\Message\ResponseFactoryInterface; 
 
 return [
