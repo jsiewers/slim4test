@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":284:{a:2:{s:7:"defects";a:2:{s:5:"Error";i:4;s:88:"App\Test\TestCase\Action\UserReaderActionTest::testUserReaderAction with data set "User"";i:4;}s:5:"times";a:2:{s:5:"Error";d:0.004;s:88:"App\Test\TestCase\Action\UserReaderActionTest::testUserReaderAction with data set "User"";d:0.036;}}}
